@@ -582,6 +582,7 @@ input[type="submit"]:focus {
 
   .mobile-message {
     display: block; /* Show the mobile message on small screens */
+    color: #6d83a5;
   }
 }
 .spark {
