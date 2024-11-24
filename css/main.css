@@ -401,7 +401,7 @@ input[type="submit"]:focus {
 .header-photo {
   position: relative;
   width: 220px;
-  margin: 0 auto 30px;
+  margin: 0 auto 20px;
   z-index: 1;
 }
 
@@ -449,6 +449,7 @@ input[type="submit"]:focus {
 /* --- Social Links --- */
 .social-links {
   margin: 10px 0;
+  font-size: 13px;
 }
 
 .social-links ul {
@@ -462,7 +463,7 @@ input[type="submit"]:focus {
 
 .social-links-leetcode {
   color: rgb(117, 155, 245);
-  font-size: 20px;
+  font-size: 15px;
 }
 
 .social-links-leetcode a:hover {
@@ -519,7 +520,7 @@ input[type="submit"]:focus {
 /* Spark Effect for Text */
 
 .header-buttons {
-  margin-top: 10px;
+  margin-top: 5px;
 }
 
 .header-buttons .btn-primary {
@@ -2408,7 +2409,7 @@ blockquote {
 
   .header-photo {
     max-width: 130px;
-    margin-bottom: 5px;
+    margin-bottom: 25px;
   }
 
   .mobile-menu-hide {
