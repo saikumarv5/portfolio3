@@ -563,6 +563,7 @@ input[type="submit"]:focus {
   margin: 20px 0;
   font-size: 16px;
   font-family: Arial, sans-serif;
+  color: #04b4e0;
 }
 
 .desktop-message {
