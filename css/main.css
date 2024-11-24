@@ -559,6 +559,9 @@ input[type="submit"]:focus {
   max-width: calc(100% - 380px);
 }
 
+.spark {
+  font-size: 18px;
+}
 .animated-sections {
   position: relative;
   height: 100%;
