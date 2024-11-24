@@ -563,6 +563,7 @@ input[type="submit"]:focus {
   margin: 20px 0;
   font-size: 16px;
   font-family: Arial, sans-serif;
+  color: #04b4e0;
 }
 
 .desktop-message {
@@ -571,6 +572,7 @@ input[type="submit"]:focus {
 
 .mobile-message {
   display: none; /* Hide the mobile message by default */
+  color: #10305f;
 }
 
 /* Media Query for Mobile Devices */
@@ -581,6 +583,7 @@ input[type="submit"]:focus {
 
   .mobile-message {
     display: block; /* Show the mobile message on small screens */
+    color: #072653;
   }
 }
 .spark {
