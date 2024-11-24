@@ -558,7 +558,31 @@ input[type="submit"]:focus {
   width: 100%;
   max-width: calc(100% - 380px);
 }
+#device-message {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+}
 
+.desktop-message {
+  display: block; /* Show the desktop message by default */
+}
+
+.mobile-message {
+  display: none; /* Hide the mobile message by default */
+}
+
+/* Media Query for Mobile Devices */
+@media screen and (max-width: 768px) {
+  .desktop-message {
+    display: none; /* Hide the desktop message on small screens */
+  }
+
+  .mobile-message {
+    display: block; /* Show the mobile message on small screens */
+  }
+}
 .spark {
   font-size: 18px;
 }
