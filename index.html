@@ -2,6 +2,16 @@
 <html lang="en" class="no-js">
 
 <head>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=YOUR_TRACKING_ID"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'G-Q4E7P4847C'); // Replace with your actual Google Analytics tracking ID
+  </script>
+
   <script type="application/javascript">
     (function (b, o, n, g, s, r, c) {
       if (b[s]) return;
@@ -122,17 +132,32 @@
             
           </ul> -->
           <!-- <li> -->
-            <a href="https://www.linkedin.com/in/saikumarvurukonda/" style="margin-right: 10px;" target="_blank">
+            <a href="https://www.linkedin.com/in/saikumarvurukonda/" style="margin-right: 10px;" target="_blank" 
+            onclick="gtag('event', 'click', { 
+              'event_category': 'Link', 
+              'event_label': 'LinkedIn Profile', 
+              'transport_type': 'beacon' 
+            })">
               <i class="fab fa-linkedin-in">  Linkedin      </i>
             </a>       
-            <a href="https://github.com/saikumarv3?tab=repositories" target="_blank">
+            <a href="https://github.com/saikumarv3?tab=repositories" target="_blank"
+            onclick="gtag('event', 'click', { 
+              'event_category': 'Link', 
+              'event_label': 'GitHub Profile', 
+              'transport_type': 'beacon' 
+            })">
               <i class="fab fa-github">     Github</i>
             </a>
             <br>
           <!-- </li> -->
           
           <b>
-            <a class="spark-text" href="https://leetcode.com/u/saikumarv/" target="_blank">
+            <a class="spark-text" href="https://leetcode.com/u/saikumarv/" target="_blank"
+            onclick="gtag('event', 'click', { 
+              'event_category': 'Link', 
+              'event_label': 'Leetcode Profile', 
+              'transport_type': 'beacon' 
+            })">
             <i class="social-links-leetcode">Leetcode</i>
           </a>
         </b>
